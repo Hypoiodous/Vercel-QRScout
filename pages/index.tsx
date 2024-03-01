@@ -160,27 +160,6 @@ export default function Home() {
           </div>
         </form>
       </main>
-      <footer>
-        <div className="mt-8 flex h-24 flex-col items-center justify-center gap-4">
-          <Image
-            alt="Red Hawk Robotics"
-            src="/RedHawkRobotics-logo.svg"
-            width={400}
-            height={200}
-          />
-          <a
-            href="https://vercel.com/?utm_source=iraiders&utm_campaign=oss"
-            target="_blank"
-          >
-            <Image
-              alt="Powered by Vercel"
-              src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-              width={200}
-              height={200}
-            ></Image>
-          </a>
-        </div>
-      </footer>
     </div>
   )
 }
