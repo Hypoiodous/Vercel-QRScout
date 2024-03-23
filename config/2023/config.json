@@ -17,8 +17,7 @@
           "title": "Match Number",
           "type": "number",
           "required": true,
-          "code": "matchNumber",
-          "defaultValue": " "
+          "code": "matchNumber"
         },
         {
           "title": "Robot",
@@ -40,8 +39,7 @@
           "title": "Team Number",
           "type": "number",
           "required": true,
-          "code": "teamNumber",
-          "defaultValue": " "
+          "code": "teamNumber"
         },
         {
           "title": "No Show",
