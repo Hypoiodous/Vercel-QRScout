@@ -42,13 +42,6 @@
           "code": "teamNumber"
         },
         {
-          "title": "Human Player at Amp",
-          "type": "boolean",
-          "required": false,
-          "defaultValue": false,
-          "code": "humanPlayer"
-        },
-        {
           "title": "No Show",
           "type": "boolean",
           "defaultValue": false,
@@ -106,13 +99,6 @@
       "name": "Teleop",
       "fields": [
         {
-          "code": "tcoop",
-          "title": "Coopertition",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
           "code": "tamps",
           "title": "Amp Scored",
           "type": "counter",
@@ -162,9 +148,9 @@
           "code": "epo",
           "choices": {
             "No": "No Climb",
-            "Fc": "Failed Climb",
             "P": "Parked",
             "Os": "Onstage",
+            "Fc": "Failed Climb",
             "Sl": "Spotlit"
           },
           "defaultValue": "No Climb"
@@ -190,6 +176,34 @@
           },
           "defaultValue": "Not Completed"
         }
+      ]
+    },
+        {
+      "name": "Human Player",
+      "fields": [
+         {
+          "title": "Human Player at Amp",
+          "type": "boolean",
+          "required": false,
+          "defaultValue": false,
+          "code": "humanPlayer"
+    `  },
+                {
+          "code": "tcoop",
+          "title": "Coopertition",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+                {
+          "code": "spotlit,
+          "title": "Scored Spotlight Notes?",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
+          "required": false
+        },
+
       ]
     },
     {
