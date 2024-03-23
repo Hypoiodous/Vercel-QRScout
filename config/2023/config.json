@@ -1,5 +1,4 @@
 {
-  "$schema": "../schema.json",
   "title": "QRScout",
   "page_title": "Crescendo",
   "sections": [
@@ -53,7 +52,6 @@
     {
       "name": "Autonomous",
       "fields": [
-
         {
           "code": "auamp",
           "title": "Amp Scored",
@@ -122,7 +120,6 @@
           "min": 0,
           "required": false
         },
-
         {
           "title": "Note Pickup Location",
           "type": "select",
@@ -178,32 +175,31 @@
         }
       ]
     },
-        {
+    {
       "name": "Human Player",
       "fields": [
-         {
+        {
           "title": "Human Player at Amp",
           "type": "boolean",
           "required": false,
           "defaultValue": false,
           "code": "humanPlayer"
         },
-                {
+        {
           "code": "tcoop",
           "title": "Coopertition",
           "type": "boolean",
           "defaultValue": false,
           "required": false
         },
-                {
+        {
           "code": "spotlit",
           "title": "Scored Spotlight Notes?",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
           "required": false
-        },
-
+        }
       ]
     },
     {
@@ -214,11 +210,10 @@
           "title": "Offense Skill",
           "type": "select",
           "choices": {
-            "x": "Not Observed",
             "1": "Not Effective",
             "2": "Average",
-            "3": "Very Effective"
-
+            "3": "Very Effective",
+            "x": "Not Observed"
           },
           "defaultValue": "x",
           "required": false
@@ -228,11 +223,10 @@
           "title": "Defense Skill",
           "type": "select",
           "choices": {
-            "x": "Not Observed",
             "1": "Not Effective",
             "2": "Average",
-            "3": "Very Effective"
-
+            "3": "Very Effective",
+            "x": "Not Observed"
           },
           "defaultValue": "x",
           "required": false
@@ -263,7 +257,6 @@
             "Red": "Red Card"
           }
         },
-
         {
           "code": "co",
           "title": "Comments",
