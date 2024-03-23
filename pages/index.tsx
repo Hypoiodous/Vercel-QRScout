@@ -104,7 +104,7 @@ export default function Home() {
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-red-200 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
                 type="button"
-                onClick={() => resetSectionst()}
+                onClick={() => resetSections()}
               >
                 Reset
               </button>
