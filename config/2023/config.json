@@ -191,7 +191,7 @@
           "required": false,
           "defaultValue": false,
           "code": "humanPlayer"
-    `  },
+        },
                 {
           "code": "tcoop",
           "title": "Coopertition",
@@ -200,7 +200,7 @@
           "required": false
         },
                 {
-          "code": "spotlit,
+          "code": "spotlit",
           "title": "Scored Spotlight Notes?",
           "type": "counter",
           "defaultValue": 0,
