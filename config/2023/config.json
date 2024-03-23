@@ -17,7 +17,9 @@
           "title": "Match Number",
           "type": "number",
           "required": true,
-          "code": "matchNumber"
+          "code": "matchNumber",
+          "preserveDataOnReset": false,
+          "defaultValue": " "
         },
         {
           "title": "Robot",
@@ -39,7 +41,9 @@
           "title": "Team Number",
           "type": "number",
           "required": true,
-          "code": "teamNumber"
+          "code": "teamNumber",
+          "preserveDataOnReset": true,
+          "defaultValue": " "
         },
         {
           "title": "No Show",
