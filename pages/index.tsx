@@ -60,7 +60,10 @@ export default function Home() {
     )
     download('QRScout_config.json', JSON.stringify(configDownload))
   }
-
+  function openLink() {
+    var formLink = "https://forms.gle/AGUjvCs61YMwRQkk8"
+      window.open(formLink)
+  }
   return (
     <div className="min-h-screen py-2 dark:bg-gray-700">
       <Head>
@@ -97,8 +100,7 @@ export default function Home() {
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-red-200 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
                 type="button"
-                let formLink = "https://forms.gle/AGUjvCs61YMwRQkk8"
-                onClick={() => window.open(formLink)}
+                onClick={() => openLink()}
               >
                 Commit QR
               </button>
