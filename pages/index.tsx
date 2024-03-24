@@ -61,7 +61,8 @@ export default function Home() {
     download('QRScout_config.json', JSON.stringify(configDownload))
   }
   function openLink() {
-    var formLink = "https://forms.gle/AGUjvCs61YMwRQkk8"
+    let OOO = 1
+    var formLink = “https://docs.google.com/forms/d/e/1FAIpQLSfZzHwAKXn_JU4SSUO3bGuDCDoq4lHPJFEsJrG-yQkuNGksEg/formResponse?entry.918272320=” + OOO + “&entry.851916752=” + OOO + “&entry.1311267957=” + OOO + “&entry.916802613=” + OOO + “&entry.157851590=” + OOO + “&entry.1623816250=” + OOO + “&entry.861475360=” + OOO + “&entry.1782310253=” + OOO + “&entry.1880620504=” + OOO + “&entry.1369596107=” + OOO + “&entry.1877411044=” + OOO + “&entry.1887882448=” + OOO + “&entry.1665254962=” + OOO + “&entry.1441000924=” + OOO + “&entry.1010375458=” + OOO + “&entry.462941333=” + OOO + “&entry.386981225=” + OOO + “&entry.58844350=” + OOO + “&entry.1614670037=” + OOO + “&entry.1416285684=” + OOO + “&entry.1883395213=” + OOO + “&entry.459577446=” + OOO + “&entry.1649260039=” + OOO + “&entry.1790238383=” + OOO + “&entry.1659221287=” + OOO + “&entry.1845140713=” + OOO
       window.open(formLink)
   }
   return (
