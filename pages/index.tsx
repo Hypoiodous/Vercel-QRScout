@@ -95,14 +95,14 @@ export default function Home() {
                 onClick={() => setShowQR(true)}
                 disabled={missingRequiredFields.length > 0}
               >
-                Commit Form
+                Commit QR //this button was supposed to be the Commit Form button as it opens a link using open.Link() function
               </button>
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-red-200 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
                 type="button"
                 onClick={() => openLink()}
               >
-                Commit QR
+                Commit Form //this button was supposed to be the Commit QR button as the function makes a QR code
               </button>
               <button
                 className="focus:shadow-outline mx-2 my-6 rounded border border-red-rhr bg-white py-2 font-bold uppercase text-red-rhr hover:bg-red-200 focus:outline-none dark:bg-gray-500 dark:text-white dark:hover:bg-gray-700"
